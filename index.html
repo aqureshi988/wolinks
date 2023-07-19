@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/dark.css">
+        <link rel="stylesheet" href="assets/css/light.css">
+
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        <title> Qureshi</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                
+                <div>
+                   
+                    <a href="#" class="nav__logo">Abdullah</a> &nbsp 
+                    <button onclick="darkMode()" ><i class='bx bxs-moon' ></i></button> &nbsp
+                    <button onclick="lightMode()"><i class='bx bx-sun' ></i></button>
+                    
+
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <!-- <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li> -->
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="./AbdullahQureshiResume.pdf" class="nav__link">Resume</a></li>
+                       
+                    </ul>
+                    
+                    
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Abdullah</span><br> Software Developer</h1>
+
+                    <a href="#contact" class="button" class="nav__link">Contact</a> <br><br>
+                </div>
+
+                <div class="home__social">
+                <a href="https://www.linkedin.com/in/abdullahqureshi99/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+    
+                <a href="mailto:aqureshiofc@gmail.com" class="home__social-icon"><i class='bx bxs-envelope-open' ></i></a>
+
+                <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+                <div class="home__img">
+                   <img src="./assets/img/profbg.png" >
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/aboutpic.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Abdullah Qureshi</h2>
+                        <p class="about__text">I have around 2 years of work experience as Junior Software Developer. I believe in hard work and am committed to my work. I am based in Mumbai, India. </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div class="skillsaq">
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+
+
+                            </div>
+                        
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-nodejs skills__icon'></i>
+                                <span class="skills__name">NODEJS</span>&nbsp;&nbsp;&nbsp;
+
+                                
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                          
+                            </div>
+                                
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                                <i class='bx bxl-react skills__icon'></i></i>
+                            <span class="skills__name">REACT</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <i class='bx bxl-redux skills__icon'></i>
+                            <span class="skills__name">REDUX</span>
+                            </div>
+                        
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-postgresql skills__icon'></i>
+                                <span class="skills__name">SQL</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <i class='bx bxl-mongodb skills__icon' ></i>
+                                <span class="skills__name">MONGODB</span>
+
+
+                        </div>
+
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon' ></i>
+                                <span class="skills__name">JAVA</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                                <i class='bx bxl-c-plus-plus skills__icon'></i>
+                                <span class="skills__name">C++</span>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="skillspic">              
+                        <img src="assets/img/skills2.jpeg" alt="" class="skills__img">
+                        
+                    </div>
+
+                   
+                
+            </section>
+
+
+
+            
+        <!--===== CERTIFICATION =====-->
+        <section>
+            <div class="certi">
+                <div class="section-title">Cetrifications</div>
+                <div>
+                    <div class="certidesc"> Course: Full Stack JavaScript Development</div> From : RST Forum, Mumbai <br>
+                    Year : 2023
+                </div>
+            </div>
+        </div>
+      
+
+
+
+
+
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="projects1">
+                        <p>&nbspEcommerce Store</p>
+                        <a href="project1.html" target="_blank" class="work__img">
+                            <img src="assets/img/store1.JPG" alt="">
+                        </a>
+                    </div>
+                  
+                    <div class="project2">
+                        <p>&nbsp&nbspHouse Price Prediction</p>
+                        <a href="" class="work__img">
+                            <img src="assets/img/work2.jpg" alt="">
+                        </a>
+                    </div>
+                        
+                    <div class="project3">
+                        <p>&nbsp&nbsp Online Objective Exam</p>
+                        <a href="" class="work__img">
+                            <img src="assets/img/work3.jpg" alt="">
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contactaq">
+                    <!-- <div class="contact__container bd-grid"> -->
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class='bx bx-current-location' ></i>
+                                    <span> : Mumbai, India</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class='bx bx-envelope' ></i>
+                                    <span>: abdullahqureshi99@example.com</span>
+                                </div>
+                               
+                            </div>
+                           
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class='bx bxs-phone' ></i>
+                                    <span> : 0123456789</span>
+                                </div>
+                             
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class='bx bx-globe' ></i>
+                                    <span> : English, Hindi, Arabic</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+    
+                        <div class="text-area">                             
+                            <form action="#home" method="GET">
+                                <input type="text" placeholder="Name" class="contact__inputN">
+                                <input type="email" placeholder="Email" class="contact__inputE">
+                                <input type="text" placeholder="Message" id="" cols="0" rows="10" class="contact__inputT"></textarea>
+                                <br>
+                                <input type="submit" value="Contact" class="contact__button button">
+                                
+                            </form>
+                        </div>
+                    <!-- </div> -->
+                </div>
+               
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__copy">&#169; 2023 Abdullah Qureshi. All Rights Reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/dark.js"></script>
+    </body>
+</html>
